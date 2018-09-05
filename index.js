@@ -61,6 +61,8 @@ function removeLastKitten(){
   return newKittens; 
 }
 
+removeLastKitten();
+
 
 function removeFirstKitten(){
   console.log(kittens.slice(1, 3));
