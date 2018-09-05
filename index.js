@@ -56,7 +56,7 @@ prependKitten("Arnold");
 
 
 function removeLastKitten(){
-  console.log(kittens.slice(2));
+  newKitten = kittens.slice(2);
   
 }
 
